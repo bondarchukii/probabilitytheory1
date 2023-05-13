@@ -11112,9 +11112,6 @@ var PDFWorker = function PDFWorkerClosure() {
     if (_worker_options.GlobalWorkerOptions.workerSrc) {
       return _worker_options.GlobalWorkerOptions.workerSrc;
     }
-    //+
-    return "./build/pdf.worker.js";
-    //-
 
     if (typeof fallbackWorkerSrc !== 'undefined') {
       return fallbackWorkerSrc;
